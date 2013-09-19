@@ -50,7 +50,6 @@ object Main {
       }
     }
     inner(chars, 0) == 0
-    
   }
 
   /**
