@@ -2,6 +2,7 @@
 *.log
 *.directory
 .metadata/
+.cache
 
 # sbt specific
 dist/*
