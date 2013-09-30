@@ -103,7 +103,7 @@ class FunSetSuite extends FunSuite {
     }
   }
 
-  test("union contains all elements") {
+  test("Union contains all elements") {
     new TestSets {
       val s = union(s1, s2)
       assert(contains(s, 1), "Union 1")
@@ -112,14 +112,14 @@ class FunSetSuite extends FunSuite {
     }
   }
 
-  test("intersection contains common elements only") {
+  test("Intersection contains common elements only") {
     new TestSets {
       val s = union(s1, s2)
       val t = union(s1, s3)
       val i = intersect(s,t)
-      assert(contains(i, 1), "intersect 1")
-      assert(!contains(i, 2), "intersect 2")
-      assert(!contains(i, 3), "intersect 3")
+      assert(contains(i, 1), "Intersect 1")
+      assert(!contains(i, 2), "Intersect 2")
+      assert(!contains(i, 3), "Intersect 3")
     }
   }
 
@@ -127,23 +127,23 @@ class FunSetSuite extends FunSuite {
     new TestSets {
       val s = union(s1, s2)
       val f = filter(s, (_ == 1))
-      assert(contains(f, 1), "filter 1")
-      assert(!contains(f, 2), "filter 2")
+      assert(contains(f, 1), "Filter 1")
+      assert(!contains(f, 2), "Filter 2")
     }
   }
 
-  test("diff works") {
+  test("Diff works") {
     new TestSets {
       val s = union(s2, s3)
       val t = union(s1, s)
       val d = diff(t, s)
-      assert(contains(d, 1), "intersect 1")
-      assert(!contains(d, 2), "intersect 2")
-      assert(!contains(d, 3), "intersect 3")
+      assert(contains(d, 1), "Diff 1")
+      assert(!contains(d, 2), "Diff 2")
+      assert(!contains(d, 3), "Diff 3")
     }
   }
 
-  test("forall works") {
+  test("Forall works") {
     new TestSets {
       val s = union(union(s1, s2), union(s3, s1001))
 
@@ -152,7 +152,7 @@ class FunSetSuite extends FunSuite {
     }
   }
 
-  test("exists works") {
+  test("Exists works") {
     new TestSets {
       val s = union(union(s1, s2), union(s3, s1001))
   
@@ -162,16 +162,15 @@ class FunSetSuite extends FunSuite {
     }
   }
 
-  test("map works") {
+  test("Map works") {
     new TestSets {
       val s = union(union(s1, s2), s3)
       val mapped = map(s, (_ * 2))
 
-      assert( contains(mapped, 2), "map 2" )
-      assert( contains(mapped, 4), "map 4" )
-      assert( contains(mapped, 6), "map 6" )
-
-      assert( !contains(mapped, 3), "map 3" )
+      assert(contains(mapped, 2), "map 2")
+      assert(contains(mapped, 4), "map 4")
+      assert(contains(mapped, 6), "map 6")
+      assert(!contains(mapped, 3), "map 3")
     }
   }
 }
