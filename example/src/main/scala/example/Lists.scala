@@ -52,10 +52,13 @@ object Lists {
     @tailrec
     def inner(xs: List[Int], max: Int): Int = {
       xs match {
-        case x :: tail => if (x > max) inner(tail, x) else inner(tail, max)
-        case Nil => max
+        case x :: tail =>
+          val newMax = if (x > max) x else max
+          inner(tail, newMax)
+        case _ => max
       }
     }
-    inner(xs, Integer.MIN_VALUE)
+    if (xs.isEmpty) throw new NoSuchElementException("The list is empty!")
+    inner(xs.tail, xs.head)
   }
 }

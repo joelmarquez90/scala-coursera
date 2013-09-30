@@ -121,4 +121,14 @@ class ListsSuite extends FunSuite {
   test("max of a few numbers") {
     assert(max(List(3, 7, 2)) === 7)
   }
+  
+  test("max of a few negative numbers") {
+    assert(max(List(-8, -7, -15)) === -7)
+  }
+  
+  test("no max in empty list") {
+    intercept[NoSuchElementException] {
+      max(List())
+    }
+  }
 }
