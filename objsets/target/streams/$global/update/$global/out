@@ -210,7 +210,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-actors;2.10.0!scala-actors.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.0!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 131ms :: artifacts dl 2ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 99ms :: artifacts dl 4ms[0m
 [0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 compile produced in /home/joel/scala-coursera/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 runtime produced in /home/joel/scala-coursera/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 test produced in /home/joel/scala-coursera/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-test.xml[0m
@@ -223,5 +223,5 @@
 [0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 sources produced in /home/joel/scala-coursera/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-sources.xml[0m
 [0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 docs produced in /home/joel/scala-coursera/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for progfun-objsets#progfun-objsets_2.10;1.0.0 pom produced in /home/joel/scala-coursera/objsets/target/resolution-cache/reports/progfun-objsets-progfun-objsets_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (131ms resolve - 2ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (99ms resolve - 4ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

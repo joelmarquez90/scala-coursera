@@ -2106,7 +2106,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.4!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.4!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 6985ms :: artifacts dl 66ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7849ms :: artifacts dl 60ms[0m
 [0m[[0mdebug[0m] [0m	report for default#default-862ff4;0.1-SNAPSHOT compile produced in /home/joel/scala-coursera/objsets/project/target/resolution-cache/reports/default-default-862ff4-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-862ff4;0.1-SNAPSHOT runtime produced in /home/joel/scala-coursera/objsets/project/target/resolution-cache/reports/default-default-862ff4-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-862ff4;0.1-SNAPSHOT test produced in /home/joel/scala-coursera/objsets/project/target/resolution-cache/reports/default-default-862ff4-test.xml[0m
@@ -2119,5 +2119,5 @@
 [0m[[0mdebug[0m] [0m	report for default#default-862ff4;0.1-SNAPSHOT sources produced in /home/joel/scala-coursera/objsets/project/target/resolution-cache/reports/default-default-862ff4-sources.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-862ff4;0.1-SNAPSHOT docs produced in /home/joel/scala-coursera/objsets/project/target/resolution-cache/reports/default-default-862ff4-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#default-862ff4;0.1-SNAPSHOT pom produced in /home/joel/scala-coursera/objsets/project/target/resolution-cache/reports/default-default-862ff4-pom.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (6985ms resolve - 66ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (7849ms resolve - 60ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
